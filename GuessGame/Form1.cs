@@ -25,7 +25,7 @@ namespace GuessGame
             }
             else
             {
-                MessageBox.Show(@"Cannot convert the given number.", @"Error",
+                MessageBox.Show(@"Cannot convert the given value.", @"Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtNumber.SelectAll();
             }
